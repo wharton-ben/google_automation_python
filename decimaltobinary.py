@@ -1,6 +1,6 @@
 # This is a tool I am going to use to convert a decimal IP address to binary
 
-def decimal_to_binary(ipaddress):
+def decimaltobinary(ipaddress):
     # First, I am going to split each part of the decimal IP address
     number_list = ipaddress.split(".")
 
@@ -13,6 +13,9 @@ def decimal_to_binary(ipaddress):
 
         # Return the binary number to the user as a string
         print(str(str_number), end=".")
-        
+
+if __name__ == '__main__':
+    decimsltobinary()
+
 
         
